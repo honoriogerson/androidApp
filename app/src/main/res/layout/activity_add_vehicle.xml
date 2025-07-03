@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText android:id="@+id/etModel" android:hint="Modelo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etManufacturerId" android:hint="ID da Montadora" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etEngine" android:hint="Motorização" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/etYear" android:hint="Ano" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnSave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Salvar"/>
+
+    </LinearLayout>
+</layout>
